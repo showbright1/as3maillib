@@ -1,0 +1,438 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="../../../../style.css" type="text/css" media="screen">
+<link rel="stylesheet" href="../../../../print.css" type="text/css" media="print">
+<meta content="SMTPConnector,org.oxcode.mail.smtp.SMTPConnector,STATE_CLIENT_INITIATION,STATE_CONNECTED,STATE_CONNECTING,STATE_DISCONNECTED,STATE_MAIL_TRANSACTION_BUSY,STATE_MAIL_TRANSACTION_READY,STATE_MAIL_TRANSACTION_RESET,STATE_SESSION_INITIATION,host,identity,port,state,close,connect,reset,send" name="keywords">
+<title>org.oxcode.mail.smtp.SMTPConnector</title>
+</head>
+<body>
+<script type="text/javascript" language="javascript" src="../../../../asdoc.js"></script><script type="text/javascript" language="javascript" src="../../../../cookies.js"></script><script type="text/javascript" language="javascript">
+<!--
+				asdocTitle = 'SMTPConnector - API Documentation';
+				var baseRef = '../../../../';
+				window.onload = configPage;
+			--></script>
+<table style="display:none" id="titleTable" cellspacing="0" cellpadding="0" class="titleTable">
+<tr>
+<td align="left" class="titleTableTitle">API Documentation</td><td align="right" class="titleTableTopNav"><a onclick="loadClassListFrame('../../../../all-classes.html')" href="../../../../package-summary.html">All&nbsp;Packages</a>&nbsp;|&nbsp;<a onclick="loadClassListFrame('../../../../all-classes.html')" href="../../../../class-summary.html">All&nbsp;Classes</a>&nbsp;|&nbsp;<a onclick="loadClassListFrame('../../../../index-list.html')" href="../../../../all-index-A.html">Index</a>&nbsp;|&nbsp;<a href="../../../../index.html?org/oxcode/mail/smtp/SMTPConnector.html&amp;org/oxcode/mail/smtp/class-list.html" id="framesLink1">Frames</a><a onclick="parent.location=document.location" href="" style="display:none" id="noFramesLink1">No&nbsp;Frames</a></td><td rowspan="3" align="right" class="titleTableLogo"><img alt="Adobe Logo" title="Adobe Logo" class="logoImage" src="../../../../images/logo.jpg"></td>
+</tr>
+<tr class="titleTableRow2">
+<td align="left" id="subTitle" class="titleTableSubTitle">Class&nbsp;SMTPConnector</td><td align="right" id="subNav" class="titleTableSubNav"><a href="#propertySummary">Properties</a>&nbsp;| <a href="#methodSummary">Methods</a>&nbsp;| <a href="#constantSummary">Constants</a></td>
+</tr>
+<tr class="titleTableRow3">
+<td colspan="2">&nbsp;</td>
+</tr>
+</table>
+<script type="text/javascript" language="javascript">
+<!--
+if (!isEclipse() || window.name != ECLIPSE_FRAME_NAME) {titleBar_setSubTitle("Class SMTPConnector"); titleBar_setSubNav(true,true,false,false,false,false,true,false,false,false,false,false,false,false);}
+--></script>
+<div class="MainContent">
+<table cellspacing="0" cellpadding="0" class="classHeaderTable">
+<tr>
+<td class="classHeaderTableLabel">Package</td><td><a onclick="javascript:loadClassListFrame('class-list.html')" href="package-detail.html">org.oxcode.mail.smtp</a></td>
+</tr>
+<tr>
+<td class="classHeaderTableLabel">Class</td><td class="classSignature">public class SMTPConnector</td>
+</tr>
+<tr>
+<td class="classHeaderTableLabel">Inheritance</td><td class="inheritanceList">SMTPConnector <img class="inheritArrow" alt="Inheritance" title="Inheritance" src="../../../../images/inherit-arrow.gif"> flash.events.EventDispatcher</td>
+</tr>
+</table>
+<p></p>
+  The SMTPConnector class connects to a mail server and sends mail using the SMTP protocol.
+  <p></p>
+<br>
+<hr>
+</div>
+<a name="propertySummary"></a>
+<div class="summarySection">
+<div class="summaryTableTitle">Public Properties</div>
+<table id="summaryTableProperty" class="summaryTable " cellpadding="3" cellspacing="0">
+<tr>
+<th>&nbsp;</th><th colspan="2">Property</th><th class="summaryTableOwnerCol">Defined&nbsp;by</th>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#host">host</a> : String<div class="summaryTableDescription">
+   The IP address or hostname of the SMTP server to connect to.</div>
+</td><td class="summaryTableOwnerCol">SMTPConnector</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#identity">identity</a> : String<div class="summaryTableDescription">
+   The identity by which this object identifies itself in the client initiation process.</div>
+</td><td class="summaryTableOwnerCol">SMTPConnector</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#port">port</a> : uint<div class="summaryTableDescription">
+   The port number of the SMTP service on the host.</div>
+</td><td class="summaryTableOwnerCol">SMTPConnector</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#state">state</a> : String<div class="summaryTableDescription">[read-only]
+   The current state of the SMTPConnector.</div>
+</td><td class="summaryTableOwnerCol">SMTPConnector</td>
+</tr>
+</table>
+</div>
+<a name="methodSummary"></a>
+<div class="summarySection">
+<div class="summaryTableTitle">Public Methods</div>
+<table id="summaryTableMethod" class="summaryTable " cellpadding="3" cellspacing="0">
+<tr>
+<th>&nbsp;</th><th colspan="2">Method</th><th class="summaryTableOwnerCol">Defined&nbsp;by</th>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#SMTPConnector()">SMTPConnector</a>(host:String, identity:String, port:uint = 25)</div>
+<div class="summaryTableDescription">
+   Creates a new SMTPConnector object initialized to the specified host and identity.</div>
+</td><td class="summaryTableOwnerCol">SMTPConnector</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#close()">close</a>():void</div>
+<div class="summaryTableDescription">
+   Close the connection to the SMTP server.</div>
+</td><td class="summaryTableOwnerCol">SMTPConnector</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#connect()">connect</a>():void</div>
+<div class="summaryTableDescription">
+   Connect to the SMTP server.</div>
+</td><td class="summaryTableOwnerCol">SMTPConnector</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#reset()">reset</a>():void</div>
+<div class="summaryTableDescription">
+   Reset a mail transaction.</div>
+</td><td class="summaryTableOwnerCol">SMTPConnector</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#send()">send</a>(mail:<a href="../Mail.html">Mail</a>):void</div>
+<div class="summaryTableDescription">
+   Send a mail.</div>
+</td><td class="summaryTableOwnerCol">SMTPConnector</td>
+</tr>
+</table>
+</div>
+<a name="constantSummary"></a>
+<div class="summarySection">
+<div class="summaryTableTitle">Public Constants</div>
+<table id="summaryTableConstant" class="summaryTable " cellpadding="3" cellspacing="0">
+<tr>
+<th>&nbsp;</th><th colspan="2">Constant</th><th class="summaryTableOwnerCol">Defined&nbsp;by</th>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#STATE_CLIENT_INITIATION">STATE_CLIENT_INITIATION</a> : String = "clientInitiation"<div class="summaryTableDescription">[static]
+   The SMTPConnector is in the process of identifying itself with the SMTP service.</div>
+</td><td class="summaryTableOwnerCol">SMTPConnector</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#STATE_CONNECTED">STATE_CONNECTED</a> : String = "connected"<div class="summaryTableDescription">[static]
+   The SMTPConnector is connected to the specified host.</div>
+</td><td class="summaryTableOwnerCol">SMTPConnector</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#STATE_CONNECTING">STATE_CONNECTING</a> : String = "connecting"<div class="summaryTableDescription">[static]
+   The SMTPConnector is connecting to the specified host.</div>
+</td><td class="summaryTableOwnerCol">SMTPConnector</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#STATE_DISCONNECTED">STATE_DISCONNECTED</a> : String = "disconnected"<div class="summaryTableDescription">[static]
+   The SMTPConnector is disconnected.</div>
+</td><td class="summaryTableOwnerCol">SMTPConnector</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#STATE_MAIL_TRANSACTION_BUSY">STATE_MAIL_TRANSACTION_BUSY</a> : String = "mailTransactionBusy"<div class="summaryTableDescription">[static]
+   The SMTPConnector is busy performing a mail transaction.</div>
+</td><td class="summaryTableOwnerCol">SMTPConnector</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#STATE_MAIL_TRANSACTION_READY">STATE_MAIL_TRANSACTION_READY</a> : String = "mailTransactionReady"<div class="summaryTableDescription">[static]
+   The SMTPConnector is ready for a new mail transaction.</div>
+</td><td class="summaryTableOwnerCol">SMTPConnector</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#STATE_MAIL_TRANSACTION_RESET">STATE_MAIL_TRANSACTION_RESET</a> : String = "mailTransactionReset"<div class="summaryTableDescription">[static]
+   The SMTPConnector is resetting a mail transaction.</div>
+</td><td class="summaryTableOwnerCol">SMTPConnector</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#STATE_SESSION_INITIATION">STATE_SESSION_INITIATION</a> : String = "sessionInitiation"<div class="summaryTableDescription">[static]
+   The SMTPConnector is in the process of initiating a session with the SMTP service.</div>
+</td><td class="summaryTableOwnerCol">SMTPConnector</td>
+</tr>
+</table>
+</div>
+<script type="text/javascript" language="javascript">
+<!--
+showHideInherited();
+--></script>
+<div class="MainContent">
+<a name="propertyDetail"></a>
+<div class="detailSectionHeader">Property detail</div>
+<a name="host"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">host</td><td class="detailHeaderType">property</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>host:String</code>&nbsp;&nbsp;[read-write]<p>
+   The IP address or hostname of the SMTP server to connect to.
+   </p><span class="label">Implementation</span>
+<br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;public function get host():String</code>
+<br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;public function set host(value:String):void</code>
+<br>
+</div>
+<a name="identity"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">identity</td><td class="detailHeaderType">property</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>identity:String</code>&nbsp;&nbsp;[read-write]<p>
+   The identity by which this object identifies itself in the client initiation process.
+   </p><span class="label">Implementation</span>
+<br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;public function get identity():String</code>
+<br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;public function set identity(value:String):void</code>
+<br>
+</div>
+<a name="port"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">port</td><td class="detailHeaderType">property</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>port:uint</code>&nbsp;&nbsp;[read-write]<p>
+   The port number of the SMTP service on the host.
+   </p><span class="label">Implementation</span>
+<br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;public function get port():uint</code>
+<br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;public function set port(value:uint):void</code>
+<br>
+</div>
+<a name="state"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">state</td><td class="detailHeaderType">property</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>state:String</code>&nbsp;&nbsp;[read-only]<p>
+   The current state of the SMTPConnector.
+   </p><span class="label">Implementation</span>
+<br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;public function get state():String</code>
+<br>
+<p>
+<span class="label">See also</span>
+</p>
+<div class="seeAlso">
+<a href="../smtp/SMTPConnector.html#STATE_DISCONNECTED" target="">STATE_DISCONNECTED</a>
+<br>
+<a href="../smtp/SMTPConnector.html#STATE_CONNECTING" target="">STATE_CONNECTING</a>
+<br>
+<a href="../smtp/SMTPConnector.html#STATE_CONNECTED" target="">STATE_CONNECTED</a>
+<br>
+<a href="../smtp/SMTPConnector.html#STATE_SESSION_INITIATION" target="">STATE_SESSION_INITIATION</a>
+<br>
+<a href="../smtp/SMTPConnector.html#STATE_CLIENT_INITIATION" target="">STATE_CLIENT_INITIATION</a>
+<br>
+<a href="../smtp/SMTPConnector.html#STATE_MAIL_TRANSACTION_READY" target="">STATE_MAIL_TRANSACTION_READY</a>
+<br>
+<a href="../smtp/SMTPConnector.html#STATE_MAIL_TRANSACTION_BUSY" target="">STATE_MAIL_TRANSACTION_BUSY</a>
+</div>
+</div>
+<a name="constructorDetail"></a>
+<div class="detailSectionHeader">Constructor detail</div>
+<a name="SMTPConnector()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">SMTPConnector</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">constructor</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public function SMTPConnector(host:String, identity:String, port:uint = 25)</code><p>
+   Creates a new SMTPConnector object initialized to the specified host and identity.
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">host</span>:String</code> &mdash; The IP address or hostname of the SMTP server to connect to.
+   </td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">identity</span>:String</code> &mdash; The identity by which this object identifies itself in the client initiation process.
+   </td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">port</span>:uint</code> (default = <code>25</code>)<code></code> &mdash; The port number of the SMTP service on the host.
+   </td>
+</tr>
+</table>
+</div>
+<a name="methodDetail"></a>
+<div class="detailSectionHeader">Method detail</div>
+<a name="close()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">close</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public function close():void</code><p>
+   Close the connection to the SMTP server.
+   </p></div>
+<a name="connect()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">connect</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public function connect():void</code><p>
+   Connect to the SMTP server.
+   </p></div>
+<a name="reset()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">reset</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public function reset():void</code><p>
+   Reset a mail transaction.
+   </p></div>
+<a name="send()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">send</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public function send(mail:<a href="../Mail.html">Mail</a>):void</code><p>
+   Send a mail.
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">mail</span>:<a href="../Mail.html">Mail</a></code> &mdash; A Mail object.
+   </td>
+</tr>
+</table>
+</div>
+<a name="constantDetail"></a>
+<div class="detailSectionHeader">Constant detail</div>
+<a name="STATE_CLIENT_INITIATION"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">STATE_CLIENT_INITIATION</td><td class="detailHeaderType">constant</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static const STATE_CLIENT_INITIATION:String = "clientInitiation"</code><p>
+   The SMTPConnector is in the process of identifying itself with the SMTP service.
+   </p></div>
+<a name="STATE_CONNECTED"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">STATE_CONNECTED</td><td class="detailHeaderType">constant</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static const STATE_CONNECTED:String = "connected"</code><p>
+   The SMTPConnector is connected to the specified host.
+   </p></div>
+<a name="STATE_CONNECTING"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">STATE_CONNECTING</td><td class="detailHeaderType">constant</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static const STATE_CONNECTING:String = "connecting"</code><p>
+   The SMTPConnector is connecting to the specified host.
+   </p></div>
+<a name="STATE_DISCONNECTED"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">STATE_DISCONNECTED</td><td class="detailHeaderType">constant</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static const STATE_DISCONNECTED:String = "disconnected"</code><p>
+   The SMTPConnector is disconnected.
+   </p></div>
+<a name="STATE_MAIL_TRANSACTION_BUSY"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">STATE_MAIL_TRANSACTION_BUSY</td><td class="detailHeaderType">constant</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static const STATE_MAIL_TRANSACTION_BUSY:String = "mailTransactionBusy"</code><p>
+   The SMTPConnector is busy performing a mail transaction.
+   </p></div>
+<a name="STATE_MAIL_TRANSACTION_READY"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">STATE_MAIL_TRANSACTION_READY</td><td class="detailHeaderType">constant</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static const STATE_MAIL_TRANSACTION_READY:String = "mailTransactionReady"</code><p>
+   The SMTPConnector is ready for a new mail transaction.
+   </p></div>
+<a name="STATE_MAIL_TRANSACTION_RESET"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">STATE_MAIL_TRANSACTION_RESET</td><td class="detailHeaderType">constant</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static const STATE_MAIL_TRANSACTION_RESET:String = "mailTransactionReset"</code><p>
+   The SMTPConnector is resetting a mail transaction.
+   </p></div>
+<a name="STATE_SESSION_INITIATION"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">STATE_SESSION_INITIATION</td><td class="detailHeaderType">constant</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static const STATE_SESSION_INITIATION:String = "sessionInitiation"</code><p>
+   The SMTPConnector is in the process of initiating a session with the SMTP service.
+   </p></div>
+<br>
+<br>
+<hr>
+<br>
+<p></p>
+<center class="copyright"> 
+</center>
+</div>
+</body>
+</html>
+<!-- -->
